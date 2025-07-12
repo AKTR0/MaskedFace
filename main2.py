@@ -71,7 +71,6 @@ accuracy = accuracy_score(y_test, y_pred)
 report = classification_report(y_test, y_pred, target_names=CLASSES)
 conf_matrix = confusion_matrix(y_test, y_pred)
 
-# 📄 LOG dosyasına yaz
 with open(LOG_FILE, "a", encoding="utf-8") as f:
     f.write("=" * 60 + "\n")
     f.write(f"Toplam örnek: {len(X)}\n")
@@ -87,6 +86,5 @@ with open(LOG_FILE, "a", encoding="utf-8") as f:
 
 print("Sonuçlar 'results_log.txt' dosyasına kaydedildi.")
 
-# 💾 Modeli kaydet
 joblib.dump(model, MODEL_FILE)
 print(f"Model '{MODEL_FILE}' dosyasına kaydedildi.")
