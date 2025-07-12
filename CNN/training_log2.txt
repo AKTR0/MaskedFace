@@ -1,0 +1,70 @@
+==================================================
+Epoch sayısı: 10
+Batch size: 32
+Train örnek sayısı: 1507
+Validation örnek sayısı: 376
+
+Epoch bazında eğitim doğruluğu:
+  Epoch 1: 0.6921
+  Epoch 2: 0.9456
+  Epoch 3: 0.9662
+  Epoch 4: 0.9728
+  Epoch 5: 0.9715
+  Epoch 6: 0.9662
+  Epoch 7: 0.9774
+  Epoch 8: 0.9814
+  Epoch 9: 0.9761
+  Epoch 10: 0.9821
+
+Epoch bazında doğrulama doğruluğu:
+  Epoch 1: 0.9628
+  Epoch 2: 0.9654
+  Epoch 3: 0.9840
+  Epoch 4: 0.9894
+  Epoch 5: 0.9654
+  Epoch 6: 0.9894
+  Epoch 7: 0.9920
+  Epoch 8: 0.9973
+  Epoch 9: 0.9867
+  Epoch 10: 0.9894
+
+Epoch bazında eğitim kaybı:
+  Epoch 1: 0.6769
+  Epoch 2: 0.1590
+  Epoch 3: 0.0981
+  Epoch 4: 0.0795
+  Epoch 5: 0.0808
+  Epoch 6: 0.0946
+  Epoch 7: 0.0585
+  Epoch 8: 0.0501
+  Epoch 9: 0.0748
+  Epoch 10: 0.0495
+
+Epoch bazında doğrulama kaybı:
+  Epoch 1: 0.1849
+  Epoch 2: 0.1051
+  Epoch 3: 0.0485
+  Epoch 4: 0.0281
+  Epoch 5: 0.0727
+  Epoch 6: 0.0404
+  Epoch 7: 0.0375
+  Epoch 8: 0.0142
+  Epoch 9: 0.0321
+  Epoch 10: 0.0264
+
+Validation Set - Classification Report:
+                precision    recall  f1-score   support
+
+  correct_mask       1.00      0.98      0.99       189
+incorrect_mask       0.98      1.00      0.99       187
+
+      accuracy                           0.99       376
+     macro avg       0.99      0.99      0.99       376
+  weighted avg       0.99      0.99      0.99       376
+
+
+Validation Set - Confusion Matrix:
+[[186   3]
+ [  0 187]]
+==================================================
+

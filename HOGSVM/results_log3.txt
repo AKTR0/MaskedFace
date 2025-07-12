@@ -1,0 +1,21 @@
+============================================================
+Toplam örnek: 1883
+Eğitim kümesi: 1506 örnek
+Test kümesi: 377 örnek
+Model: HOG + LinearSVC
+Doğruluk (accuracy): 0.9735
+Classification Report:
+                precision    recall  f1-score   support
+
+  correct_mask       0.99      0.95      0.97       190
+incorrect_mask       0.95      0.99      0.97       187
+
+      accuracy                           0.97       377
+     macro avg       0.97      0.97      0.97       377
+  weighted avg       0.97      0.97      0.97       377
+
+Confusion Matrix:
+[[181   9]
+ [  1 186]]
+============================================================
+
