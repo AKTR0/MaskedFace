@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix, f1_score
 # === 1. Parametreler ===
 IMG_SIZE = 256
 BATCH_SIZE = 32
-MODEL_PATH = './modeller/CNN1/mask_classifier_model.h5'
+MODEL_PATH = './models/CNN1/mask_classifier_model.h5'
 TEST_DIR = './demodataset/10'  
 
 # === 2. Modeli Yükle ===
